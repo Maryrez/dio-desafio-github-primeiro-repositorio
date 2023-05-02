@@ -1,0 +1,27 @@
+1. Comandos básicos de navegação do GIT no console.
+
+
+comando para Listar: “DIR” 
+listagem dos diretórios da pasta que está selecionada. 
+
+comando para navegar entre as pastas: “CD”  Ex.: cd windows
+entrar dentro das pastas, necessário passar um caminho específico. 
+
+-> comando para retroceder um nível na navegação: “cd .. “
+-> comando para limpar a tela: “cls”
+
+comando para criar um diretório: “mkdir” Ex: mkdir workspace
+criar novas pastas já passando o nome da pasta a ser criada.
+
+comando para criar arquivos: 
+comando “echo” irá printar uma mensagem dentro de um arquivo. Ex.: echo hello
+-> criando o arquivo: echo hello > hello txt 
+o símbolo “>”  irá pegar a função e jogar no arquivo que está mencionando, o cmd irá validar se tem um arquivo com o nome que está mencionando e se não houve ele irá criar esse arquivo. 
+
+comando para deletar arquivos: “del” Ex.: del workspace
+irá deletar apenas os arquivos dentro do repositório informado
+
+comando para deletar o diretório e todos arquivos: “rmdir” Ex.:rmdir workspace /S /Q
+foi passadas duas flags 
+
+comando para mover arquivos de repositórios e pastas: “mv” Ex.: mv strogonoff.md ./receitas/   passando o repositório para qual vamos mover o arquivo.

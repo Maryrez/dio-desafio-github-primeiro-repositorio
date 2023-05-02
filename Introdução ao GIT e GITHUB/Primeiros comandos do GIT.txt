@@ -1,0 +1,21 @@
+Primeiros comandos do GIT. 
+
+
+- Iniciar o GIT: comando git init
+- Iniciar o versionamento: comando git add 
+(comando git add * pega todos meus arquivos da área de working e adiciona a área de staging)
+- Criar um commit: comando git commit
+- Identificar o status dos arquivos: comando git status
+
+
+
+flag que mostra arquivos ocultos: -a
+flag usada com o commit: -m
+
+
+
+-> configurações iniciais do GIT, para criar o author 
+
+git config --global user.email ""
+
+

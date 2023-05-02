@@ -1,0 +1,25 @@
+Conceitos do GIT
+
+
+. SHA1: 
+é um algoritmo de encriptação, que vai pegar o arquivo e vai encriptar de uma forma bem segura. É importante porque ele gera um conjunto identificador de 40 dígitos de caractere e é único. 
+É uma forma curta de representar um arquivo, o estado de um arquivo, sempre vai trazer uma chave diferente quando é rodado no arquivo.
+
+
+--> 3 objetos básicos do GIT responsável pelo versionamento do código: BLOBS, TREES, COMMITS. 
+
+
+> Objetos fundamentais (Blobs): 
+Ex.: Blobs; utilizando a função do GIT hash, no qual está pedindo para ele encriptar pelo sha1. 
+echo ‘conteudo’ | git hash-object –stdin
+
+
+> Objetos fundamentais (Tree): 
+As árvores armazenam blobs, sendo ele o básico de composição e a tree armazenando e apontando para blocos de dados diferentes, ela também contém metadados e apontam para um blob. A árvore também guarda o nome do arquivo diferente do blob, ela é responsável por montar toda estrutura de onde estão esses arquivos. 
+
+
+> Objetos fundamentais (Commit):
+É o objeto mais importante, ele é o que vai juntar tudo e dar sentido para alteração que está fazendo. O commit ele aponta para uma árvore, aponta para o último commit(parente) realizado antes dele, para o autor e uma mensagem. Pode escrever uma mensagem dentro do commit explicando o que são as árvores e os Blobs dentro desse commit. O commit também possui uma encriptação SHA1.
+
+
+
